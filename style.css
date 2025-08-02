@@ -159,4 +159,45 @@ footer {
     .about h2, .contact h2 {
         font-size: 2rem;
     }
+}
+
+/* 广告样式 */
+.ad-section {
+    padding: 40px 0;
+    background: #f8fafc;
+    border-top: 1px solid #e2e8f0;
+    border-bottom: 1px solid #e2e8f0;
+    margin: 20px 0;
+}
+
+.ad-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.ad-bottom {
+    background: #ffffff;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+/* AdSense 响应式优化 */
+.adsbygoogle {
+    margin: 0 auto;
+    min-height: 250px;
+    display: block !important;
+}
+
+/* 移动端广告优化 */
+@media (max-width: 768px) {
+    .ad-section {
+        padding: 20px 0;
+        margin: 10px 0;
+    }
+    
+    .adsbygoogle {
+        min-height: 200px;
+    }
 } 
